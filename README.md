@@ -1,2 +1,2 @@
-# Rocnikovy-projekt-Laboratorni-zdroj
-Ročníkový projekt laboratorní zdroj
+# Ročníkový projekt - laboratorní zdroj
+
