@@ -51,9 +51,9 @@ Síťová část zdroje je umístěna uvnitř uzavřené krabičky a během bě�
 
 Pro realizaci laboratorního zdroje byly použity jak nové, tak i již použité komponenty. Hlavní část zdroje tvoří toroidní transformátor, jehož úkolem je snížit síťové napětí 230 V na nižší napětí vhodné pro další zpracování. Výstupní napětí transformátoru umožňuje výsledný rozsah regulovaného napětí přibližně od 6 V do 36 V.
 
-Regulace výstupního napětí a proudu je realizována pomocí hotového napájecího modulu zakoupeného z Číny. Tento modul zajišťuje stabilní regulaci a zároveň umožňuje jednoduché ovládání pomocí potenciometrů. Pro usměrnění střídavého napětí z transformátoru byl použit diodový můstek, který převádí střídavé napětí na stejnosměrné.
+Regulace výstupního napětí a proudu je realizována pomocí hotového napájecího modulu zakoupeného z Číny. Tento modul zajišťuje stabilní regulaci a zároveň umožňuje jednoduché ovládání pomocí potenciometru. Pro usměrnění střídavého napětí z transformátoru byl použit diodový můstek, který převádí střídavé napětí na stejnosměrné.
 
-Na výstupu zdroje jsou použity banánkové zásuvky, které zajišťují bezpečné a spolehlivé připojení měřicích hrotů, krokosvorek nebo jiných výstupních vodičů. Všechny komponenty jsou propojeny vhodnými vodiči, které jsou v místech připojení ke svorkám regulátoru krimpované, aby bylo zajištěno pevné a spolehlivé spojení. Pro zvýšení bezpečnosti a zabránění zkratu je na přívodech a vývodech diodového můstku použita smršťovací bužírka.
+Na výstupu ze zdroje jsou použity banánkové zásuvky, které zajišťují bezpečné a spolehlivé připojení měřicích hrotů, krokosvorek nebo jiných výstupních vodičů. Všechny komponenty jsou propojeny vhodnými vodiči, které jsou v místech připojení ke svorkám regulátoru krimpované, aby bylo zajištěno pevné a spolehlivé spojení. Pro zvýšení bezpečnosti a zabránění zkratu je na přívodech a vývodech diodového můstku použity smršťovací bužírky.
 
 | Všechny použité materiály    | Použité nářadí                     |
 |------------------------------|------------------------------------|
