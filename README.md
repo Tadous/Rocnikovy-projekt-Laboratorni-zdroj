@@ -1,7 +1,7 @@
 # Ročníkový projekt - laboratorní zdroj
 
 
-### Cílem mého ročníkového projektu
+### Cíl mého ročníkového projektu
 
 Cílem mého ročníkového projektu je sestavit laboratorní zdroj využívající toroidní transformátor, který jsem získal během letní brigády ve firmě ATAS Velké Poříčí. Transformátor pochází z polohovatelných pracovních stolů, kterých se firma v minulosti zbavovala, a měl být původně určen k likvidaci. Spolu s ním jsem obdržel i malou plastovou krabičku (velikostí menší než krabice od bot) a původní tištěný spoj s elektronikou.
 
