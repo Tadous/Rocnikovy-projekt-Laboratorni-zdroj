@@ -74,13 +74,13 @@ Na výstupu ze zdroje jsou použity banánkové zásuvky, které zajišťují be
 
 Zapojení laboratorního zdroje bylo navrženo s důrazem na jednoduchost, přehlednost a bezpečnost provozu. Síťové napětí 230 V je přivedeno napájecím kabelem ze zásuvky do původního přívodu na krabičce zdroje. Odtud napětí pokračuje přes filtrační člen do primárního vinutí toroidního transformátoru.
 
-Z sekundárního vinutí transformátoru jsou vyvedeny vodiče, které jsou připojeny k diodovému můstku. Diodový můstek slouží k usměrnění střídavého napětí na stejnosměrné. Z jeho výstupů jsou vyvedeny dva vodiče – kladný (plus) a záporný (mínus).
+Ze sekundárního vinutí transformátoru jsou vyvedeny vodiče, které jsou připojeny k diodovému můstku. Diodový můstek slouží k usměrnění střídavého napětí na stejnosměrné. Z jeho výstupů jsou vyvedeny dva vodiče – kladný (plus) a záporný (mínus).
 
 Tyto vodiče jsou následně přivedeny do regulátoru napětí a proudu. Regulátor zajišťuje nastavení požadovaných výstupních parametrů podle potřeb uživatele. Z výstupu regulátoru vedou vodiče k banánkovým zásuvkám umístěným na čelním panelu zdroje. Do těchto zásuvek lze připojit banánky, měřicí hroty nebo krokosvorky, pomocí kterých je možné laboratorní zdroj připojit k napájenému zařízení.
 
 ## 6. Mechanické provedení
 
-Aby bylo možné regulátor umístit do původní kovové krabičky, bylo nutné provést několik mechanických úprav. Do krytu krabičky jsem vyřízl otvor odpovídající rozměrům regulátoru. Dále jsem z hliníkového plechu vyrobil držák pro diodový můstek, který zároveň slouží jako pasivní chladič. Hliník byl ohnut do tvaru písmene „L“, opatřen montážními otvory a následně pevně přišroubován ke krabičce.
+Aby bylo možné regulátor umístit do původní plastové krabičky, bylo nutné provést několik mechanických úprav. Do krytu krabičky jsem vyřízl otvor odpovídající rozměrům regulátoru. Dále jsem z hliníkového plechu vyrobil držák pro diodový můstek, který zároveň slouží jako pasivní chladič. Hliník byl ohnut do tvaru písmene „L“, opatřen montážními otvory a následně pevně přišroubován ke krabičce.
 
 Pro banánkové zásuvky jsem navrhl výplňový kroužek, který vyplňuje mezeru v původních otvorech po starých konektorech. Tento díl jsem vymodeloval a vytiskl pomocí 3D tiskárny, díky čemuž zásuvky pevně drží a esteticky zapadají do krabičky.
 
@@ -88,7 +88,7 @@ Pro banánkové zásuvky jsem navrhl výplňový kroužek, který vyplňuje meze
 
 ## 7. Vyskytlé chyby při realizaci
 
-Během realizace projektu se objevilo několik problémů. Po prvním připojení regulátoru zakoupeného z Číny jsem zjistil, že jeho displej je nefunkční – byl zamrzlý a nereagoval. Zároveň regulátor zobrazoval nesprávné hodnoty napětí a proudu, tedy chybně měřil. Po diagnostice problému bylo zjištěno, že závada je přímo v displeji regulátoru.
+Během realizace projektu se objevilo několik problémů. Po prvním připojení regulátoru zakoupeného z Číny jsem zjistil, že jeho displej je nefunkční – byl zamrzlý a nereagoval. Po diagnostice problému bylo zjištěno, že závada je přímo v displeji regulátoru. Zároveň měřák zobrazoval nesprávné hodnoty napětí, tedy chybně měřil.
 
 
 
@@ -106,11 +106,10 @@ Kladný pól diodového můstku jsem propojil s kladným vstupem regulátoru hn�
 
 Při prvních testech jsem narazil na problém, kdy regulátor z Číny nefungoval správně. Po kontrole bylo zjištěno, že závada je v displeji, a proto jsem regulátor reklamoval a objednal nový kus. Po jeho výměně již zařízení fungovalo správně.
 
-Následně jsem laboratorní zdroj testoval pomocí multimetru, který však ukazoval téměř dvojnásobné hodnoty napětí. Po konzultaci ve firmě ATAS jsem obdržel jiný transformátor. Po jeho zapojení se však problém opakoval. Nakonec jsem zjistil, že chyba byla v přívodním měřicím kabelu multimetru, který vykazoval napětí až 400 V. Po výměně kabelu za jiný byly naměřené hodnoty správné.
+Následně jsem laboratorní zdroj testoval pomocí multimetru, který však ukazoval téměř dvojnásobné hodnoty napětí. Po konzultaci ve firmě ATAS jsem obdržel jiný transformátor. Po jeho zapojení se však problém opakoval. Když jsem zmeřil napětí na přívodu a naměřil jsem tam 400V, tak jsem odhalil problém v měřícím přístroji. Měření jsem provedl jiným a správně-měřícim přístrojem.
 
 
-
-Po dokončení všech úprav jsem krabičku opět sešrouboval. Laboratorní zdroj je tímto plně funkční, bezpečný a řádně proměřený. Zdroj pracuje v rozsahu 5–36 V s maximálním proudem do 5 A. Displej regulátoru nabízí několik režimů zobrazení, například hlavní napájecí rozhraní se zobrazením nastaveného napětí a proudu, statické rozhraní nebo grafické zobrazení aktuálního odběru a napětí v čase. Mezi užitečné funkce regulátoru patří také možnost zapnutí a vypnutí výstupního napětí.
+Po dokončení všech úprav jsem krabičku opět sešrouboval. Laboratorní zdroj je tímto plně funkční, bezpečný a řádně proměřený. Zdroj pracuje v rozsahu 5–36 V s maximálním proudem do 5 A. Displej regulátoru nabízí několik režimů zobrazení, například hlavní napájecí rozhraní se zobrazením nastaveného napětí a proudu, statické rozhraní nebo grafické zobrazení aktuálního odběru proudu a napětí v čase. Mezi užitečné funkce regulátoru patří také možnost zapnutí a vypnutí výstupního napětí.
 
 
 ## Doporučená literatura:
