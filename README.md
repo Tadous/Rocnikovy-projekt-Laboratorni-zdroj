@@ -46,6 +46,9 @@ Jednotlivé komponenty, jako je transformátor, diodový můstek a regulátor, j
 
 Síťová část zdroje je umístěna uvnitř uzavřené krabičky a během běžného provozu není uživateli přístupná. Ovládací a výstupní prvky jsou vyvedeny pouze na čelní panel zdroje, což minimalizuje riziko úrazu elektrickým proudem při běžném používání zařízení.
 
+![Smršťovací trubička na diodovém můstku](https://github.com/user-attachments/assets/f51eb654-e792-4f46-9127-a73d6c586f76)
+![Smršťovací trubička na diodovém můstku](https://github.com/user-attachments/assets/06ea8db7-0bc7-40a2-9257-85b4660acf77)
+
   
 ## 4. Použité komponenty
 
@@ -70,6 +73,11 @@ Na výstupu ze zdroje jsou použity banánkové zásuvky, které zajišťují be
 | Šroub s podložkama a matkou  |                                    | 
 
 
+![Diodový můstek](https://github.com/user-attachments/assets/11da56cd-3535-4d79-9af4-5a4ef67d7453)
+![Toroidní transformátor](https://github.com/user-attachments/assets/7df1e3ab-1282-4b6a-8539-c7085ee8c00c)
+
+
+
 ## 5. Návrh zapojení
 
 Zapojení laboratorního zdroje bylo navrženo s důrazem na jednoduchost, přehlednost a bezpečnost provozu. Síťové napětí 230 V je přivedeno napájecím kabelem ze zásuvky do původního přívodu na krabičce zdroje. Odtud napětí pokračuje přes filtrační člen do primárního vinutí toroidního transformátoru.
@@ -90,8 +98,10 @@ Pro banánkové zásuvky jsem navrhl výplňový kroužek, který vyplňuje meze
 
 Během realizace projektu se objevilo několik problémů. Po prvním připojení regulátoru zakoupeného z Číny jsem zjistil, že jeho displej je nefunkční – byl zamrzlý a nereagoval. Po diagnostice problému bylo zjištěno, že závada je přímo v displeji regulátoru. Zároveň měřák zobrazoval nesprávné hodnoty napětí, tedy chybně měřil.
 
-![Obrázek WhatsApp, 2025-12-18 v 12 12 34_6bae2938](https://github.com/user-attachments/assets/37617f06-22cd-45e6-9034-601b14c937a7)
-![Obrázek WhatsApp, 2025-12-18 v 12 12 59_60744778](https://github.com/user-attachments/assets/3d086213-9817-4806-ae36-9eb9db826dc3)
+![Měření na přívodu - špatný měřák](https://github.com/user-attachments/assets/37617f06-22cd-45e6-9034-601b14c937a7)
+![Měření na diodovém můstku-špatný měřák](https://github.com/user-attachments/assets/3d086213-9817-4806-ae36-9eb9db826dc3)
+
+Odkaz na krátké video ukazující rozbitý regulátor:
 https://github.com/user-attachments/assets/be9a8d22-94c9-4b01-a9a9-0bf2a64bb681
 
 
@@ -123,20 +133,35 @@ Po dokončení všech úprav jsem krabičku opět sešrouboval. Laboratorní zdr
 
 Na konec jsem ustřihl 2x metr kabelu černé a červené barvy. Odizoloval jsem všechny čtyři konce, nanes na ně cín, aby se lepé uchytily pod šroubek u banánku. Jeden konec jsem strčil do banánku, zafixoval jsem ho šroubkem a banánek jsem přetáhl izolační částí banánku.
 
+![Zapojení laboratorního zdroje](https://github.com/user-attachments/assets/76123275-66a1-419e-8190-9346ed6b4fb9)
+![Zapojení laboratorního zdroje](https://github.com/user-attachments/assets/c9457e6b-5180-42d4-937b-ce720e7ee7de)
+![Regulátory](https://github.com/user-attachments/assets/68d8652d-366e-4bdf-b568-50dd15f3cd08)
+![Výroba držáku a chladiče pro diodový můstek](https://github.com/user-attachments/assets/1ba2f504-00af-4811-a5d1-5a83129d3e6d)
+![Výroba držáku a chladiče pro diodový můstek](https://github.com/user-attachments/assets/b699e45f-2c19-4d60-ae2e-8763f11a0e82)
+![Výroba kabelu s banánky](https://github.com/user-attachments/assets/ec87d7c3-3bd2-4f4e-bd21-8281fa5a83e8)
+![Laboratorní zdroj](https://github.com/user-attachments/assets/89fe18d2-cc2b-4592-959d-7f4f9eba3dcd)
+![Výroba kabelu s banánky](https://github.com/user-attachments/assets/84990174-e9cf-4c80-bd7b-4fb599b34a49)
+
+### Tři odkazy na tři videa, která popisují a ukazují, jak laboratorní zdroj funguje:
+https://github.com/user-attachments/assets/fd326a6d-fb5f-4f58-bf76-38289a37c923
+
+(další dvě videa pošlu do Teamsů)
+
+
 
 ## Doporučená literatura:
 
--Toroidní transformátor – princip a fungování
- Botland.cz. Toroidní transformátor – co to je a jak funguje.
- Dostupné z: https://botland.cz/blog/toroidni-transformator-co-to-je-a-jak-funguje/
+- Toroidní transformátor – princip a fungování
+  Botland.cz. Toroidní transformátor – co to je a jak funguje.
+  Dostupné z: https://botland.cz/blog/toroidni-transformator-co-to-je-a-jak-funguje/
 
--Diodový můstek – datasheet a informace
- AllDatasheet.com. HY/BR352L datasheet.
- Dostupné z: https://www.alldatasheet.com/datasheet-pdf/pdf/222971/HY/BR352L.html
+- Diodový můstek – datasheet a informace
+  AllDatasheet.com. HY/BR352L datasheet.
+  Dostupné z: https://www.alldatasheet.com/datasheet-pdf/pdf/222971/HY/BR352L.html
 
--Krimpování kabelů – video návod
- YouTube. Jak správně krimpovat kabely.
- Dostupné z: https://www.youtube.com/watch?v=WMVPOeh8mtQ 
+ -Krimpování kabelů – video návod
+  YouTube. Jak správně krimpovat kabely.
+  Dostupné z: https://www.youtube.com/watch?v=WMVPOeh8mtQ 
 
 -Malý, M.
  Základy elektrotechniky.
