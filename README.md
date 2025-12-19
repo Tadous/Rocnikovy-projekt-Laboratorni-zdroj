@@ -2,7 +2,7 @@
 
 ## Poděkování
 
-Rád bych poděkoval firmě ATAS Velké Poříčí za věnování krabičky s transformátorem, která byla základem mého projektu. Zvláštní poděkování patří panu Martinu Térovému, který ve firmě pracuje, ochotně mi vysvětlil princip fungování zařízení a pomohl mi s vyřešením problému s poškozeným transformátorem. Pan Tér mi dokonce poskytl nový transformátor ještě předtím, než jsem zjistil závadu na měřicím přístroji.
+Rád bych poděkoval firmě ATAS Velké Poříčí za věnování krabičky s transformátorem, která byla základem mého projektu. Zvláštní poděkování patří panu Martinu Térovému, který ve firmě pracuje, ochotně mi vysvětlil princip fungování zařízení a pomohl mi s vyřešením problému s poškozeným transformátorem. Pan Tér mi dokonce poskytl nový transformátor ještě předtím, než jsem zjistil závadu na měřicím přístroji. Dále bych chtěl zmínit chatGPT, který mi pomohl s úpravou textu a kontroly pravopisu.
 
 ## Cíl mého ročníkového projektu
 
@@ -90,13 +90,23 @@ Pro banánkové zásuvky jsem navrhl výplňový kroužek, který vyplňuje meze
 
 Během realizace projektu se objevilo několik problémů. Po prvním připojení regulátoru zakoupeného z Číny jsem zjistil, že jeho displej je nefunkční – byl zamrzlý a nereagoval. Po diagnostice problému bylo zjištěno, že závada je přímo v displeji regulátoru. Zároveň měřák zobrazoval nesprávné hodnoty napětí, tedy chybně měřil.
 
+![Obrázek WhatsApp, 2025-12-18 v 12 12 34_6bae2938](https://github.com/user-attachments/assets/37617f06-22cd-45e6-9034-601b14c937a7)
+![Obrázek WhatsApp, 2025-12-18 v 12 12 59_60744778](https://github.com/user-attachments/assets/3d086213-9817-4806-ae36-9eb9db826dc3)
+https://github.com/user-attachments/assets/be9a8d22-94c9-4b01-a9a9-0bf2a64bb681
+
+
+
+
+
+
+
 
 
 ## 8. Realizace – postup práce
 
 Krabička laboratorního zdroje byla sešroubována šesti šrouby na dvě poloviny. Po jejich odšroubování jsem krabičku rozebral a demontoval původní tištěný spoj, který byl připevněn k jedné polovině krytu. Následně jsem odpojil všechny konektory a z tištěného spoje odstřihl diodový můstek, který jsem se rozhodl znovu použít pro usměrnění napětí z transformátoru.
 
-Po dodání regulátoru z Číny jsem do horního krytu vyfrézoval otvor pro jeho osazení. První otvor byl však vyroben příliš blízko okraje, a proto jsem regulátor posunul. Původní otvor bude zakryt záslepkou vytištěnou na 3D tiskárně, která zatím není nainstalována, avšak nemá vliv na funkčnost zařízení.
+Po dodání regulátoru z Číny jsem do horního krytu vyfrézoval otvor pro jeho osazení. První otvor byl však vyfrézován příliš blízko okraje, a proto jsem regulátor posunul. Původní otvor jsem zakryt záslepkou vytištěnou na 3D tiskárně.
 
 Na vývodech z transformátoru jsem odstranil původní nakrimpované konektory. Z hliníku jsem vyřízl rovný plátek, který jsem ohnul do tvaru písmene „L“. Tento díl slouží jako držák diodového můstku a zároveň jako chladič. Do hliníku jsem vyvrtal otvory pro přišroubování ke krabičce i pro upevnění samotného diodového můstku.
 
@@ -106,10 +116,12 @@ Kladný pól diodového můstku jsem propojil s kladným vstupem regulátoru hn�
 
 Při prvních testech jsem narazil na problém, kdy regulátor z Číny nefungoval správně. Po kontrole bylo zjištěno, že závada je v displeji, a proto jsem regulátor reklamoval a objednal nový kus. Po jeho výměně již zařízení fungovalo správně.
 
-Následně jsem laboratorní zdroj testoval pomocí multimetru, který však ukazoval téměř dvojnásobné hodnoty napětí. Po konzultaci ve firmě ATAS jsem obdržel jiný transformátor. Po jeho zapojení se však problém opakoval. Když jsem zmeřil napětí na přívodu a naměřil jsem tam 400V, tak jsem odhalil problém v měřícím přístroji. Měření jsem provedl jiným a správně-měřícim přístrojem.
+Následně jsem laboratorní zdroj testoval pomocí multimetru, který však ukazoval téměř dvojnásobné hodnoty napětí. Po konzultaci ve firmě ATAS jsem obdržel jiný transformátor. Po jeho zapojení se však problém opakoval. Když jsem změřil napětí na přívodu a naměřil jsem tam 400V, tak jsem odhalil problém v měřícím přístroji. Měření jsem provedl jiným a správně-měřícim přístrojem.
 
 
 Po dokončení všech úprav jsem krabičku opět sešrouboval. Laboratorní zdroj je tímto plně funkční, bezpečný a řádně proměřený. Zdroj pracuje v rozsahu 5–36 V s maximálním proudem do 5 A. Displej regulátoru nabízí několik režimů zobrazení, například hlavní napájecí rozhraní se zobrazením nastaveného napětí a proudu, statické rozhraní nebo grafické zobrazení aktuálního odběru proudu a napětí v čase. Mezi užitečné funkce regulátoru patří také možnost zapnutí a vypnutí výstupního napětí.
+
+Na konec jsem ustřihl 2x metr kabelu černé a červené barvy. Odizoloval jsem všechny čtyři konce, nanes na ně cín, aby se lepé uchytily pod šroubek u banánku. Jeden konec jsem strčil do banánku, zafixoval jsem ho šroubkem a banánek jsem přetáhl izolační částí banánku.
 
 
 ## Doporučená literatura:
